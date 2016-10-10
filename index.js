@@ -1,6 +1,6 @@
 
 var _rimraf = require('rimraf')
-var Promise = require('native-or-bluebird')
+var Promise = require('any-promise')
 
 module.exports = function (dir) {
   return new Promise(function (resolve, reject) {
